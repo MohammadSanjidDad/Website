@@ -1,0 +1,49 @@
+@use "Component/mixin";
+@use "Component/variable";
+
+section.navigation {
+    padding: 15px 0;
+    border-bottom: 2px solid #000;
+
+    div.navigation_containers {
+        nav.nav {
+            @include mixin.display_style(space-between);
+
+            div.nav_logo {
+                font-size: 24px;
+                font-weight: 700;
+                letter-spacing: -0.5px;
+
+                &:hover {
+                    font-style: italic;
+                }
+            }
+
+            ul.nav_menu {
+                @include mixin.display_style(center);
+
+                li.nav_menu_element {
+                    margin: 0 15px;
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        font-size: 15px;
+                        font-weight: 600;
+                        letter-spacing: 1.5px;
+
+                        &:hover {
+                            color: variable.$main_colors;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

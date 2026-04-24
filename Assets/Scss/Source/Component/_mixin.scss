@@ -1,0 +1,6 @@
+@mixin display_style($position) {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: $position;
+}
