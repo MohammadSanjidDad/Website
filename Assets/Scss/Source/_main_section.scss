@@ -1,0 +1,126 @@
+@use "Component/mixin";
+@use "Component/variable";
+
+section.main_section {
+    height: 100VH;
+    border-bottom: 2px solid #000000;
+
+    div.contents_section {
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%);
+
+        div.containers {
+            position: relative;
+
+            div.title_section {
+                padding-bottom: 30px;
+
+                p.title {
+                    Font-size: 128px;
+                    Font-weight: 900;
+                    line-height: 110px;
+                    letter-spacing: -4px;
+                    Font-family: "Inter", sans-serif;
+                }
+            }
+
+            div.sub_title_section {
+                padding-left: 25px;
+                margin-bottom: 30px;
+                border-left: 4px solid #000000;
+
+                p.sub_title_one {
+                    Font-size: 24px;
+                    Font-weight: 500;
+                }
+
+                p.sub_title_two {
+                    Font-size: 24px;
+                    Font-weight: 500;
+                }
+            }
+
+            div.link_section {
+                a.link_one {
+                    padding: 15px 28px;
+                    display: inline-flex;
+                    border: 1px solid #000000;
+                    background-color: #000000;
+
+                    span {
+                        color: #FFFFFF;
+                        Font-size: 15px;
+                        Font-weight: 600;
+                        letter-spacing: 1px;
+                        padding-right: 12px;
+                        Font-family: "Inter", sans-serif;
+                    }
+
+                    img {
+                        width: 20px;
+                    }
+                }
+
+                a.link_two {
+                    padding: 15px 28px;
+                    display: inline-flex;
+                    border: 1px solid #000000;
+                    background-color: #000000;
+
+                    span {
+                        color: #FFFFFF;
+                        Font-size: 15px;
+                        Font-weight: 600;
+                        letter-spacing: 1px;
+                        padding-right: 12px;
+                        font-family: "Inter", sans-serif;
+                    }
+
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+
+            div.water_marks {
+                top: 50%;
+                z-index: -1;
+                position: absolute;
+                transform: translateY(-50%);
+
+                p {
+                    Font-size: 400px;
+                    Font-weight: 900;
+                    color: variable.$shadow_colors;
+                    Font-family: "Inter", sans-serif;
+                }
+            }
+
+            div.side_text {
+                right: 0;
+                bottom: 0;
+                z-index: -1;
+                position: absolute;
+                transform: rotate(90deg);
+
+                p {
+                    Font-size: 14px;
+                    Font-weight: 600;
+                    Font-family: "Inter", sans-serif;
+
+                    &::before {
+                        content: "";
+                        width: 75%;
+                        Height: 2px;
+                        left: -130px;
+                        display: block;
+                        position: absolute;
+                        background-color: #000000;
+                        padding-right: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

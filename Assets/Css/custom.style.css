@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 section.navigation {
   padding: 15px 0;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #000000;
 }
 section.navigation div.navigation_containers nav.nav {
   display: flex;
@@ -41,6 +42,110 @@ section.navigation div.navigation_containers nav.nav ul.nav_menu li.nav_menu_ele
   color: #0047FF;
 }
 
+section.main_section {
+  height: 100VH;
+  border-bottom: 2px solid #000000;
+}
+section.main_section div.contents_section {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+section.main_section div.contents_section div.containers {
+  position: relative;
+}
+section.main_section div.contents_section div.containers div.title_section {
+  padding-bottom: 30px;
+}
+section.main_section div.contents_section div.containers div.title_section p.title {
+  Font-size: 128px;
+  Font-weight: 900;
+  line-height: 110px;
+  letter-spacing: -4px;
+  Font-family: "Inter", sans-serif;
+}
+section.main_section div.contents_section div.containers div.sub_title_section {
+  padding-left: 25px;
+  margin-bottom: 30px;
+  border-left: 4px solid #000000;
+}
+section.main_section div.contents_section div.containers div.sub_title_section p.sub_title_one {
+  Font-size: 24px;
+  Font-weight: 500;
+}
+section.main_section div.contents_section div.containers div.sub_title_section p.sub_title_two {
+  Font-size: 24px;
+  Font-weight: 500;
+}
+section.main_section div.contents_section div.containers div.link_section a.link_one {
+  padding: 15px 28px;
+  display: inline-flex;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+section.main_section div.contents_section div.containers div.link_section a.link_one span {
+  color: #FFFFFF;
+  Font-size: 15px;
+  Font-weight: 600;
+  letter-spacing: 1px;
+  padding-right: 12px;
+  Font-family: "Inter", sans-serif;
+}
+section.main_section div.contents_section div.containers div.link_section a.link_one img {
+  width: 20px;
+}
+section.main_section div.contents_section div.containers div.link_section a.link_two {
+  padding: 15px 28px;
+  display: inline-flex;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+section.main_section div.contents_section div.containers div.link_section a.link_two span {
+  color: #FFFFFF;
+  Font-size: 15px;
+  Font-weight: 600;
+  letter-spacing: 1px;
+  padding-right: 12px;
+  font-family: "Inter", sans-serif;
+}
+section.main_section div.contents_section div.containers div.link_section a.link_two img {
+  width: 20px;
+}
+section.main_section div.contents_section div.containers div.water_marks {
+  top: 50%;
+  z-index: -1;
+  position: absolute;
+  transform: translateY(-50%);
+}
+section.main_section div.contents_section div.containers div.water_marks p {
+  Font-size: 400px;
+  Font-weight: 900;
+  color: #F5F5F5;
+  Font-family: "Inter", sans-serif;
+}
+section.main_section div.contents_section div.containers div.side_text {
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  position: absolute;
+  transform: rotate(90deg);
+}
+section.main_section div.contents_section div.containers div.side_text p {
+  Font-size: 14px;
+  Font-weight: 600;
+  Font-family: "Inter", sans-serif;
+}
+section.main_section div.contents_section div.containers div.side_text p::before {
+  content: "";
+  width: 75%;
+  Height: 2px;
+  left: -130px;
+  display: block;
+  position: absolute;
+  background-color: #000000;
+  padding-right: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +164,11 @@ li {
 }
 
 div.navigation_containers {
-  width: 92%;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+div.containers {
+  width: 1250px;
   margin: 0 auto;
 }/*# sourceMappingURL=custom.style.css.map */
