@@ -1,174 +1,174 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-section.navigation {
-  padding: 15px 0;
-  border-bottom: 2px solid #000000;
+SECTION.NAVIGATION {
+  PADDING: 15PX 0;
+  BORDER-BOTTOM: 2PX SOLID #000000;
 }
-section.navigation div.navigation_containers nav.nav {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV {
+  DISPLAY: FLEX;
+  ALIGN-ITEMS: CENTER;
+  ALIGN-CONTENT: CENTER;
+  JUSTIFY-CONTENT: SPACE-BETWEEN;
 }
-section.navigation div.navigation_containers nav.nav div.nav_logo {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV DIV.NAV_LOGO {
+  FONT-SIZE: 24PX;
+  FONT-WEIGHT: 700;
+  LETTER-SPACING: -0.5PX;
 }
-section.navigation div.navigation_containers nav.nav div.nav_logo:hover {
-  font-style: italic;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV DIV.NAV_LOGO:HOVER {
+  FONT-STYLE: ITALIC;
 }
-section.navigation div.navigation_containers nav.nav ul.nav_menu {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV UL.NAV_MENU {
+  DISPLAY: FLEX;
+  ALIGN-ITEMS: CENTER;
+  ALIGN-CONTENT: CENTER;
+  JUSTIFY-CONTENT: CENTER;
 }
-section.navigation div.navigation_containers nav.nav ul.nav_menu li.nav_menu_element {
-  margin: 0 15px;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV UL.NAV_MENU LI.NAV_MENU_ELEMENT {
+  MARGIN: 0 15PX;
 }
-section.navigation div.navigation_containers nav.nav ul.nav_menu li.nav_menu_element:nth-child(1) {
-  margin-left: 0;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV UL.NAV_MENU LI.NAV_MENU_ELEMENT:NTH-CHILD(1) {
+  MARGIN-LEFT: 0;
 }
-section.navigation div.navigation_containers nav.nav ul.nav_menu li.nav_menu_element:last-child {
-  margin-right: 0;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV UL.NAV_MENU LI.NAV_MENU_ELEMENT:LAST-CHILD {
+  MARGIN-RIGHT: 0;
 }
-section.navigation div.navigation_containers nav.nav ul.nav_menu li.nav_menu_element a {
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV UL.NAV_MENU LI.NAV_MENU_ELEMENT A {
+  FONT-SIZE: 15PX;
+  FONT-WEIGHT: 600;
+  LETTER-SPACING: 1.5PX;
 }
-section.navigation div.navigation_containers nav.nav ul.nav_menu li.nav_menu_element a:hover {
-  color: #0047FF;
+SECTION.NAVIGATION DIV.NAVIGATION_CONTAINERS NAV.NAV UL.NAV_MENU LI.NAV_MENU_ELEMENT A:HOVER {
+  COLOR: #0047FF;
 }
 
-section.main_section {
-  height: 100VH;
-  border-bottom: 2px solid #000000;
+SECTION.MAIN_SECTION {
+  HEIGHT: 100VH;
+  BORDER-BOTTOM: 2PX SOLID #000000;
 }
-section.main_section div.contents_section {
-  top: 50%;
-  position: relative;
-  transform: translateY(-50%);
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION {
+  TOP: 50%;
+  POSITION: RELATIVE;
+  TRANSFORM: TRANSLATEY(-50%);
 }
-section.main_section div.contents_section div.containers {
-  position: relative;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS {
+  POSITION: RELATIVE;
 }
-section.main_section div.contents_section div.containers div.title_section {
-  padding-bottom: 30px;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.TITLE_SECTION {
+  PADDING-BOTTOM: 30PX;
 }
-section.main_section div.contents_section div.containers div.title_section p.title {
-  Font-size: 128px;
-  Font-weight: 900;
-  line-height: 110px;
-  letter-spacing: -4px;
-  Font-family: "Inter", sans-serif;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.TITLE_SECTION P.TITLE {
+  FONT-SIZE: 128PX;
+  FONT-WEIGHT: 900;
+  LINE-HEIGHT: 110PX;
+  LETTER-SPACING: -4PX;
+  FONT-FAMILY: "INTER", SANS-SERIF;
 }
-section.main_section div.contents_section div.containers div.sub_title_section {
-  padding-left: 25px;
-  margin-bottom: 30px;
-  border-left: 4px solid #000000;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.SUB_TITLE_SECTION {
+  PADDING-LEFT: 25PX;
+  MARGIN-BOTTOM: 30PX;
+  BORDER-LEFT: 4PX SOLID #000000;
 }
-section.main_section div.contents_section div.containers div.sub_title_section p.sub_title_one {
-  Font-size: 24px;
-  Font-weight: 500;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.SUB_TITLE_SECTION P.SUB_TITLE_ONE {
+  FONT-SIZE: 24PX;
+  FONT-WEIGHT: 500;
 }
-section.main_section div.contents_section div.containers div.sub_title_section p.sub_title_two {
-  Font-size: 24px;
-  Font-weight: 500;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.SUB_TITLE_SECTION P.SUB_TITLE_TWO {
+  FONT-SIZE: 24PX;
+  FONT-WEIGHT: 500;
 }
-section.main_section div.contents_section div.containers div.link_section a.link_one {
-  padding: 15px 28px;
-  display: inline-flex;
-  border: 1px solid #000000;
-  background-color: #000000;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.LINK_SECTION A.LINK_ONE {
+  PADDING: 15PX 28PX;
+  DISPLAY: INLINE-FLEX;
+  BORDER: 1PX SOLID #000000;
+  BACKGROUND-COLOR: #000000;
 }
-section.main_section div.contents_section div.containers div.link_section a.link_one span {
-  color: #FFFFFF;
-  Font-size: 15px;
-  Font-weight: 600;
-  letter-spacing: 1px;
-  padding-right: 12px;
-  Font-family: "Inter", sans-serif;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.LINK_SECTION A.LINK_ONE SPAN {
+  COLOR: #FFFFFF;
+  FONT-SIZE: 15PX;
+  FONT-WEIGHT: 600;
+  LETTER-SPACING: 1PX;
+  PADDING-RIGHT: 12PX;
+  FONT-FAMILY: "INTER", SANS-SERIF;
 }
-section.main_section div.contents_section div.containers div.link_section a.link_one img {
-  width: 20px;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.LINK_SECTION A.LINK_ONE IMG {
+  WIDTH: 20PX;
 }
-section.main_section div.contents_section div.containers div.link_section a.link_two {
-  padding: 15px 28px;
-  display: inline-flex;
-  border: 1px solid #000000;
-  background-color: #000000;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.LINK_SECTION A.LINK_TWO {
+  PADDING: 15PX 28PX;
+  DISPLAY: INLINE-FLEX;
+  BORDER: 1PX SOLID #000000;
+  BACKGROUND-COLOR: #000000;
 }
-section.main_section div.contents_section div.containers div.link_section a.link_two span {
-  color: #FFFFFF;
-  Font-size: 15px;
-  Font-weight: 600;
-  letter-spacing: 1px;
-  padding-right: 12px;
-  font-family: "Inter", sans-serif;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.LINK_SECTION A.LINK_TWO SPAN {
+  COLOR: #FFFFFF;
+  FONT-SIZE: 15PX;
+  FONT-WEIGHT: 600;
+  LETTER-SPACING: 1PX;
+  PADDING-RIGHT: 12PX;
+  FONT-FAMILY: "INTER", SANS-SERIF;
 }
-section.main_section div.contents_section div.containers div.link_section a.link_two img {
-  width: 20px;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.LINK_SECTION A.LINK_TWO IMG {
+  WIDTH: 20PX;
 }
-section.main_section div.contents_section div.containers div.water_marks {
-  top: 50%;
-  z-index: -1;
-  position: absolute;
-  transform: translateY(-50%);
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.WATER_MARKS {
+  TOP: 50%;
+  Z-INDEX: -1;
+  POSITION: ABSOLUTE;
+  TRANSFORM: TRANSLATEY(-50%);
 }
-section.main_section div.contents_section div.containers div.water_marks p {
-  Font-size: 400px;
-  Font-weight: 900;
-  color: #F5F5F5;
-  Font-family: "Inter", sans-serif;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.WATER_MARKS P {
+  FONT-SIZE: 400PX;
+  FONT-WEIGHT: 900;
+  COLOR: #F5F5F5;
+  FONT-FAMILY: "INTER", SANS-SERIF;
 }
-section.main_section div.contents_section div.containers div.side_text {
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  position: absolute;
-  transform: rotate(90deg);
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.SIDE_TEXT {
+  RIGHT: 0;
+  BOTTOM: 0;
+  Z-INDEX: -1;
+  POSITION: ABSOLUTE;
+  TRANSFORM: ROTATE(90DEG);
 }
-section.main_section div.contents_section div.containers div.side_text p {
-  Font-size: 14px;
-  Font-weight: 600;
-  Font-family: "Inter", sans-serif;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.SIDE_TEXT P {
+  FONT-SIZE: 14PX;
+  FONT-WEIGHT: 600;
+  FONT-FAMILY: "INTER", SANS-SERIF;
 }
-section.main_section div.contents_section div.containers div.side_text p::before {
-  content: "";
-  width: 75%;
-  Height: 2px;
-  left: -130px;
-  display: block;
-  position: absolute;
-  background-color: #000000;
-  padding-right: 40px;
+SECTION.MAIN_SECTION DIV.CONTENTS_SECTION DIV.CONTAINERS DIV.SIDE_TEXT P::BEFORE {
+  CONTENT: "";
+  WIDTH: 75%;
+  HEIGHT: 2PX;
+  LEFT: -130PX;
+  DISPLAY: BLOCK;
+  POSITION: ABSOLUTE;
+  BACKGROUND-COLOR: #000000;
+  PADDING-RIGHT: 40PX;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  MARGIN: 0;
+  PADDING: 0;
+  OUTLINE: NONE;
+  BOX-SIZING: BORDER-BOX;
+  FONT-FAMILY: "POPPINS", SANS-SERIF;
 }
 
-a {
-  color: #000;
-  text-decoration: none;
+A {
+  COLOR: #000;
+  TEXT-DECORATION: NONE;
 }
 
-li {
-  list-style: none;
+LI {
+  LIST-STYLE: NONE;
 }
 
-div.navigation_containers {
-  width: 1250px;
-  margin: 0 auto;
+DIV.NAVIGATION_CONTAINERS {
+  WIDTH: 1250PX;
+  MARGIN: 0 AUTO;
 }
 
-div.containers {
-  width: 1250px;
-  margin: 0 auto;
-}/*# sourceMappingURL=custom.style.css.map */
+DIV.CONTAINERS {
+  WIDTH: 1250PX;
+  MARGIN: 0 AUTO;
+}/*# sourceMappingURL=CUSTOM.STYLE.css.map */

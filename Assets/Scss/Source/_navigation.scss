@@ -1,45 +1,45 @@
-@use "Component/mixin";
-@use "Component/variable";
+@use "COMPONENT/MIXIN";
+@use "COMPONENT/VARIABLE";
 
-section.navigation {
-    padding: 15px 0;
-    border-bottom: 2px solid #000000;
+SECTION.NAVIGATION {
+    PADDING: 15PX 0;
+    BORDER-BOTTOM: 2PX SOLID #000000;
 
-    div.navigation_containers {
-        nav.nav {
-            @include mixin.display_style(space-between);
+    DIV.NAVIGATION_CONTAINERS {
+        NAV.NAV {
+            @include MIXIN.DISPLAY_STYLE(SPACE-BETWEEN);
 
-            div.nav_logo {
-                font-size: 24px;
-                font-weight: 700;
-                letter-spacing: -0.5px;
+            DIV.NAV_LOGO {
+                FONT-SIZE: 24PX;
+                FONT-WEIGHT: 700;
+                LETTER-SPACING: -0.5PX;
 
-                &:hover {
-                    font-style: italic;
+                &:HOVER {
+                    FONT-STYLE: ITALIC;
                 }
             }
 
-            ul.nav_menu {
-                @include mixin.display_style(center);
+            UL.NAV_MENU {
+                @include MIXIN.DISPLAY_STYLE(CENTER);
 
-                li.nav_menu_element {
-                    margin: 0 15px;
+                LI.NAV_MENU_ELEMENT {
+                    MARGIN: 0 15PX;
 
-                    &:nth-child(1) {
-                        margin-left: 0;
+                    &:NTH-CHILD(1) {
+                        MARGIN-LEFT: 0;
                     }
 
-                    &:last-child {
-                        margin-right: 0;
+                    &:LAST-CHILD {
+                        MARGIN-RIGHT: 0;
                     }
 
-                    a {
-                        font-size: 15px;
-                        font-weight: 600;
-                        letter-spacing: 1.5px;
+                    A {
+                        FONT-SIZE: 15PX;
+                        FONT-WEIGHT: 600;
+                        LETTER-SPACING: 1.5PX;
 
-                        &:hover {
-                            color: variable.$main_colors;
+                        &:HOVER {
+                            COLOR: VARIABLE.$MAIN_COLORS;
                         }
                     }
                 }

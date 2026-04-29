@@ -1,123 +1,123 @@
-@use "Component/mixin";
-@use "Component/variable";
+@use "COMPONENT/MIXIN";
+@use "COMPONENT/VARIABLE";
 
-section.main_section {
-    height: 100VH;
-    border-bottom: 2px solid #000000;
+SECTION.MAIN_SECTION {
+    HEIGHT: 100VH;
+    BORDER-BOTTOM: 2PX SOLID #000000;
 
-    div.contents_section {
-        top: 50%;
-        position: relative;
-        transform: translateY(-50%);
+    DIV.CONTENTS_SECTION {
+        TOP: 50%;
+        POSITION: RELATIVE;
+        TRANSFORM: TRANSLATEY(-50%);
 
-        div.containers {
-            position: relative;
+        DIV.CONTAINERS {
+            POSITION: RELATIVE;
 
-            div.title_section {
-                padding-bottom: 30px;
+            DIV.TITLE_SECTION {
+                PADDING-BOTTOM: 30PX;
 
-                p.title {
-                    Font-size: 128px;
-                    Font-weight: 900;
-                    line-height: 110px;
-                    letter-spacing: -4px;
-                    Font-family: "Inter", sans-serif;
+                P.TITLE {
+                    FONT-SIZE: 128PX;
+                    FONT-WEIGHT: 900;
+                    LINE-HEIGHT: 110PX;
+                    LETTER-SPACING: -4PX;
+                    FONT-FAMILY: "INTER", SANS-SERIF;
                 }
             }
 
-            div.sub_title_section {
-                padding-left: 25px;
-                margin-bottom: 30px;
-                border-left: 4px solid #000000;
+            DIV.SUB_TITLE_SECTION {
+                PADDING-LEFT: 25PX;
+                MARGIN-BOTTOM: 30PX;
+                BORDER-LEFT: 4PX SOLID #000000;
 
-                p.sub_title_one {
-                    Font-size: 24px;
-                    Font-weight: 500;
+                P.SUB_TITLE_ONE {
+                    FONT-SIZE: 24PX;
+                    FONT-WEIGHT: 500;
                 }
 
-                p.sub_title_two {
-                    Font-size: 24px;
-                    Font-weight: 500;
-                }
-            }
-
-            div.link_section {
-                a.link_one {
-                    padding: 15px 28px;
-                    display: inline-flex;
-                    border: 1px solid #000000;
-                    background-color: #000000;
-
-                    span {
-                        color: #FFFFFF;
-                        Font-size: 15px;
-                        Font-weight: 600;
-                        letter-spacing: 1px;
-                        padding-right: 12px;
-                        Font-family: "Inter", sans-serif;
-                    }
-
-                    img {
-                        width: 20px;
-                    }
-                }
-
-                a.link_two {
-                    padding: 15px 28px;
-                    display: inline-flex;
-                    border: 1px solid #000000;
-                    background-color: #000000;
-
-                    span {
-                        color: #FFFFFF;
-                        Font-size: 15px;
-                        Font-weight: 600;
-                        letter-spacing: 1px;
-                        padding-right: 12px;
-                        font-family: "Inter", sans-serif;
-                    }
-
-                    img {
-                        width: 20px;
-                    }
+                P.SUB_TITLE_TWO {
+                    FONT-SIZE: 24PX;
+                    FONT-WEIGHT: 500;
                 }
             }
 
-            div.water_marks {
-                top: 50%;
-                z-index: -1;
-                position: absolute;
-                transform: translateY(-50%);
+            DIV.LINK_SECTION {
+                A.LINK_ONE {
+                    PADDING: 15PX 28PX;
+                    DISPLAY: INLINE-FLEX;
+                    BORDER: 1PX SOLID #000000;
+                    BACKGROUND-COLOR: #000000;
 
-                p {
-                    Font-size: 400px;
-                    Font-weight: 900;
-                    color: variable.$shadow_colors;
-                    Font-family: "Inter", sans-serif;
+                    SPAN {
+                        COLOR: #FFFFFF;
+                        FONT-SIZE: 15PX;
+                        FONT-WEIGHT: 600;
+                        LETTER-SPACING: 1PX;
+                        PADDING-RIGHT: 12PX;
+                        FONT-FAMILY: "INTER", SANS-SERIF;
+                    }
+
+                    IMG {
+                        WIDTH: 20PX;
+                    }
+                }
+
+                A.LINK_TWO {
+                    PADDING: 15PX 28PX;
+                    DISPLAY: INLINE-FLEX;
+                    BORDER: 1PX SOLID #000000;
+                    BACKGROUND-COLOR: #000000;
+
+                    SPAN {
+                        COLOR: #FFFFFF;
+                        FONT-SIZE: 15PX;
+                        FONT-WEIGHT: 600;
+                        LETTER-SPACING: 1PX;
+                        PADDING-RIGHT: 12PX;
+                        FONT-FAMILY: "INTER", SANS-SERIF;
+                    }
+
+                    IMG {
+                        WIDTH: 20PX;
+                    }
                 }
             }
 
-            div.side_text {
-                right: 0;
-                bottom: 0;
-                z-index: -1;
-                position: absolute;
-                transform: rotate(90deg);
+            DIV.WATER_MARKS {
+                TOP: 50%;
+                Z-INDEX: -1;
+                POSITION: ABSOLUTE;
+                TRANSFORM: TRANSLATEY(-50%);
 
-                p {
-                    Font-size: 14px;
-                    Font-weight: 600;
-                    Font-family: "Inter", sans-serif;
+                P {
+                    FONT-SIZE: 400PX;
+                    FONT-WEIGHT: 900;
+                    COLOR: VARIABLE.$SHADOW_COLORS;
+                    FONT-FAMILY: "INTER", SANS-SERIF;
+                }
+            }
 
-                    &::before {
-                        content: "";
-                        width: 75%;
-                        Height: 2px;
-                        left: -130px;
-                        display: block;
-                        position: absolute;
-                        background-color: #000000;
-                        padding-right: 40px;
+            DIV.SIDE_TEXT {
+                RIGHT: 0;
+                BOTTOM: 0;
+                Z-INDEX: -1;
+                POSITION: ABSOLUTE;
+                TRANSFORM: ROTATE(90DEG);
+
+                P {
+                    FONT-SIZE: 14PX;
+                    FONT-WEIGHT: 600;
+                    FONT-FAMILY: "INTER", SANS-SERIF;
+
+                    &::BEFORE {
+                        CONTENT: "";
+                        WIDTH: 75%;
+                        HEIGHT: 2PX;
+                        LEFT: -130PX;
+                        DISPLAY: BLOCK;
+                        POSITION: ABSOLUTE;
+                        BACKGROUND-COLOR: #000000;
+                        PADDING-RIGHT: 40PX;
                     }
                 }
             }

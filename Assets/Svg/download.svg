@@ -1,6 +1,0 @@
-<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Arrow -->
-  <path d="M25 4V28M16 20L25 29L34 20" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Base Tray with Hole -->
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M10 32C7.79086 32 6 33.7909 6 36V41C6 44.866 9.13401 48 13 48H37C40.866 48 44 44.866 44 41V36C44 33.7909 42.2091 32 40 32H33L25 40L17 32H10ZM36 43C37.6569 43 39 41.6569 39 40C39 38.3431 37.6569 37 36 37C34.3431 37 33 38.3431 33 40C33 41.6569 34.3431 43 36 43Z" fill="white"/>
-</svg>

@@ -1,6 +1,6 @@
-@mixin display_style($position) {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: $position;
+@mixin DISPLAY_STYLE($POSITION) {
+    DISPLAY: FLEX;
+    ALIGN-ITEMS: CENTER;
+    ALIGN-CONTENT: CENTER;
+    JUSTIFY-CONTENT: $POSITION;
 }
