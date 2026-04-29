@@ -1,5 +1,6 @@
-@use "Source/navigation";
-@use "Source/main_section";
+@use "SOURCE/ABOUT_ME";
+@use "SOURCE/NAVIGATION";
+@use "SOURCE/MAIN_SECTION";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -10,6 +11,10 @@
     OUTLINE: NONE;
     BOX-SIZING: BORDER-BOX;
     FONT-FAMILY: "POPPINS", SANS-SERIF;
+}
+
+HTML::-webkit-scrollbar {
+    display: none;
 }
 
 A {
